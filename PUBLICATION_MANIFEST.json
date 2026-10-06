@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "title": "Sequential and multithreaded pi estimation",
-  "runtime_verified_for_publication": false,
+  "completion_gate_passed": true,
   "files": [
     {
       "path": ".gitignore",
@@ -39,6 +39,16 @@
       "bytes": 15494
     },
     {
+      "path": "LICENSE",
+      "sha256": "7e6c75b7225dc7b18138f003313922e4d3cbaf24e55faed3980920344ea667e1",
+      "bytes": 549
+    },
+    {
+      "path": "multithreaded.cpp",
+      "sha256": "6c5fd32c3e05fb0d9fa500ec3813af141993e1c5e431144f8038f5e8a4c6ec38",
+      "bytes": 2722
+    },
+    {
       "path": "os final project (2) azfar.docx.md",
       "sha256": "91f0130215aa90a098c3348192997377af4494bb035eaf5bf936101c3d815d86",
       "bytes": 10833
@@ -49,9 +59,19 @@
       "bytes": 10842
     },
     {
+      "path": "problem-statement.md",
+      "sha256": "8d96e63dace7051c163d639d42ce910095af08fbaf22974a9eec656f598a9586",
+      "bytes": 1184
+    },
+    {
       "path": "README.md",
-      "sha256": "e36edc9f2dd553728037e0c7dbe05648e2130138bac53d7a1e76561e17185de4",
-      "bytes": 750
+      "sha256": "ead588e6d7c3e2b33ff989e2bd67a00297a3f2e6ff361ba18f41fed83c5fdd09",
+      "bytes": 784
+    },
+    {
+      "path": "sequential.cpp",
+      "sha256": "15861df3e846fbe15325911c7f388712ad368d4814cf055d6666e2c07fa3d815",
+      "bytes": 610
     },
     {
       "path": "Unattended-e41fb1c0-1081-4f1b-aad7-1326bae01eac-grub.cfg",
@@ -62,6 +82,11 @@
       "path": "Unattended-e41fb1c0-1081-4f1b-aad7-1326bae01eac-vboxpostinstall.sh",
       "sha256": "f4fdd8fb610adff09551b4bdb438c82e0769b40972ff57e143bb11c44223d17d",
       "bytes": 7049
+    },
+    {
+      "path": "VERIFICATION.json",
+      "sha256": "e3c63c0963f094e326ca12fa797132402b97e909de8f3d7463d0a412f2c0627d",
+      "bytes": 1269
     },
     {
       "path": "ubuntu/Unattended-e41fb1c0-1081-4f1b-aad7-1326bae01eac-grub.cfg",

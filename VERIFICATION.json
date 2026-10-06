@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-06",
+  "project": "pi-estimation-multithreaded",
+  "completion_scope": "academic project or finished document; not a production certification",
+  "checks": [
+    {
+      "name": "sequential strict compilation",
+      "passed": true
+    },
+    {
+      "name": "sequential accuracy ",
+      "passed": true
+    },
+    {
+      "name": "multithreaded strict compilation",
+      "passed": true
+    },
+    {
+      "name": "multithreaded accuracy 1/200001/",
+      "passed": true
+    },
+    {
+      "name": "multithreaded accuracy 3/200001/",
+      "passed": true
+    },
+    {
+      "name": "multithreaded accuracy 8/200001/",
+      "passed": true
+    },
+    {
+      "name": "reject invalid 0/",
+      "passed": true
+    },
+    {
+      "name": "reject invalid -2/",
+      "passed": true
+    },
+    {
+      "name": "reject invalid oops/",
+      "passed": true
+    },
+    {
+      "name": "reject invalid 257/",
+      "passed": true
+    },
+    {
+      "name": "reject invalid 2/100000/",
+      "passed": true
+    },
+    {
+      "name": "reject invalid 2/no/",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Numerical correctness and invalid input tested; throughput claims are not made."
+  ]
+}

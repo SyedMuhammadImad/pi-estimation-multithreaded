@@ -1,10 +1,12 @@
-# Sequential and multithreaded pi estimation
+# Pi estimation with POSIX threads
 
-Learning/coursework project. Attribution is retained where present. Runtime verification was not performed for publication.
+Sequential and multithreaded implementations of the alternating arctangent series. The multithreaded version splits all terms across workers, merges partial sums under a mutex, and validates input and thread creation.
 
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic sequential.cpp -o pi_sequential
+g++ -std=c++17 -Wall -Wextra -pedantic -pthread multithreaded.cpp -o pi_threads
+./pi_sequential
+./pi_threads
+```
 
-## Publication copy
-
-Published 5 October 2026 at the owner's request. This is a sanitized source snapshot. Original local Git history and original files remain unchanged. Pictures, videos, binary archives, private/runtime data, dependency folders and credentials are excluded. Notebook outputs, attachments and incidental metadata are removed. Documents are text-only extracts. Media references and redacted configuration may need replacements before running. No claim of successful rerun, production readiness, sole authorship or independent validation is implied.
-
-
+The threaded program accepts 1–256 threads and 100001–1000000000 terms. MSYS2 UCRT64 provides the Windows compiler and POSIX threading support used for verification. More threads do not imply faster execution. Academic project; see VERIFICATION.json for actual checks. No credentials or picture/video assets are included.
