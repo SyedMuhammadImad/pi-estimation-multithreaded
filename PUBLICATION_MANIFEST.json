@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-08",
   "title": "Sequential and multithreaded pi estimation",
   "completion_gate_passed": true,
   "files": [
@@ -9,34 +9,24 @@
       "bytes": 421
     },
     {
-      "path": "Assignment 1 OS.docx.md",
-      "sha256": "bfaafc81002f1e074553a5123a80c94289388b40e2e8a483c6b0fdfd6acf0238",
-      "bytes": 2238
-    },
-    {
-      "path": "Complex Computing Problem  OS Fall 2025.docx.md",
-      "sha256": "950b866e53af2b0e4efe8650526dbb72e51a0b80263f252f5ec977174191637d",
-      "bytes": 3842
-    },
-    {
       "path": "Complex Computing Problem  solution.docx.md",
-      "sha256": "e790c34b9bf76787e730f9952ea51bd0bd204d57d79dd12f5b85c6db7bcfa893",
-      "bytes": 13623
+      "sha256": "84fef9904859ea9617de2f752859700b1712c59ed9a79ec19934b6d3aeea518b",
+      "bytes": 13997
     },
     {
       "path": "complex computing report 2.docx.md",
-      "sha256": "865164f67e6ea6753760d04f6c6cfa88752e921d735b2c8e936f03695071edb5",
-      "bytes": 14946
+      "sha256": "e4d0bf16669150136d0f78c8e800602a4cc28ac31db85f3c03dfb9a205000357",
+      "bytes": 15287
     },
     {
       "path": "complex computing report.docx.md",
-      "sha256": "96ab6dacf9554db1492185d3b64f60b027962ecc1c6d32c856a932a4951641b1",
-      "bytes": 14804
+      "sha256": "9c3c9e5e2d8e23045d5c9e0b7bf56134f801a53fa2fcb3e248d76ce8a3b57bfa",
+      "bytes": 15165
     },
     {
       "path": "Final_Pi_Report_Student_Version.docx.md",
-      "sha256": "75a81e2900afdc3b50a3f1012b13125c0f51b9079b2ffb5f619ef194ac5a9e9d",
-      "bytes": 15494
+      "sha256": "6e682e76d1c70d759548197a236296a8b7c2cbd0dbf54d28657a52891124956c",
+      "bytes": 15863
     },
     {
       "path": "LICENSE",
@@ -50,13 +40,13 @@
     },
     {
       "path": "os final project (2) azfar.docx.md",
-      "sha256": "91f0130215aa90a098c3348192997377af4494bb035eaf5bf936101c3d815d86",
-      "bytes": 10833
+      "sha256": "e3907626270ba1d133c1b610478c2950a694ee92ebf33662aaddb55d18b3c409",
+      "bytes": 11197
     },
     {
       "path": "os final project (2) mohib.docx.md",
-      "sha256": "15c96d7aadba481366aa7ffb917390504ee9d112accfc3c5ced52c9b3b93bd8b",
-      "bytes": 10842
+      "sha256": "718aaa00d2d6c1a2a9bcbb795ac67206cfd98ce12fede8f7b04f3e1ec1ddc339",
+      "bytes": 11226
     },
     {
       "path": "problem-statement.md",
@@ -65,8 +55,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "ead588e6d7c3e2b33ff989e2bd67a00297a3f2e6ff361ba18f41fed83c5fdd09",
-      "bytes": 784
+      "sha256": "ba9fb82dad9d874b14b7c7e06ff24a3f6dc99cdf6e227fa57e079df7e62d3e7b",
+      "bytes": 788
     },
     {
       "path": "sequential.cpp",
@@ -85,8 +75,8 @@
     },
     {
       "path": "VERIFICATION.json",
-      "sha256": "e3c63c0963f094e326ca12fa797132402b97e909de8f3d7463d0a412f2c0627d",
-      "bytes": 1269
+      "sha256": "4b84d4a743c5a31f94e7003695140478452d1ea33d771f12c8d6f26be79b3d4d",
+      "bytes": 1273
     },
     {
       "path": "ubuntu/Unattended-e41fb1c0-1081-4f1b-aad7-1326bae01eac-grub.cfg",

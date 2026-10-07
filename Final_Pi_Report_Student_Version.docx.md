@@ -8,11 +8,10 @@ Estimation of Pi Using Maclaurin Series
 
 Multithreaded Implementation
 
-Course: Operating Systems (CC3011)
+reference: Operating Systems (CC3011)
 
-Semester: Fall 2025
 
-Name: Syed Muhammad Imad, ID: F2023376179
+Name: Syed Muhammad Imad, ID: Syed Muhammad Imad
 
 Date: 30th January, 2026
 
@@ -24,7 +23,7 @@ For this project, I made a program that calculates Pi using something called the
 
 π = 4 × [1 - 1/3 + 1/5 - 1/7 + 1/9 - ...]
 
-The whole point of this assignment was to make the calculation run faster by using multithreading. My program asks the user for two things - how many threads they want to use, and how many terms (n) to calculate. I used POSIX threads (pthreads) to divide up the work between different threads, and I had to use a mutex lock so that all the threads could safely update the final answer without messing each other up.
+The whole point of this project was to make the calculation run faster by using multithreading. My program asks the user for two things - how many threads they want to use, and how many terms (n) to calculate. I used POSIX threads (pthreads) to divide up the work between different threads, and I had to use a mutex lock so that all the threads could safely update the final answer without messing each other up.
 
 2. SEQUENTIAL IMPLEMENTATION
 
@@ -43,7 +42,7 @@ It's pretty straightforward but really slow when n is large since everything run
 
 2.2 Time Complexity
 
-The time complexity is O(n) because you have to go through all n terms one by one. When n gets to be 100,000 or more like the assignment required, it actually takes a while, especially since it's only using one CPU core.
+The time complexity is O(n) because you have to go through all n terms one by one. When n gets to be 100,000 or more like the project required, it actually takes a while, especially since it's only using one CPU core.
 
 2.3 Problems with Sequential Approach
 
@@ -338,7 +337,7 @@ The critical section is really small - it's literally just adding local_sum to g
 
 6.1 Meeting the Requirements
 
-I'm pretty sure my implementation hits all the assignment requirements:
+I'm pretty sure my implementation hits all the project requirements:
 
 ✓ Works with n > 100,000
 ✓ Uses a global variable (global_sum) that all threads update
@@ -373,7 +372,7 @@ The multithreaded version is definitely faster than the sequential one, especial
 
 My results show that multithreading really does work for this kind of computational problem. I got close to linear speedup up to my CPU's core count, which proves the parallel approach is effective. The comparison between the sequential and multithreaded versions really shows why parallel programming matters.
 
-Overall this was a really useful project. I learned a lot about how to use threads properly, why synchronization is so important when threads share data, and how to actually get performance improvements from parallelization. Everything works and meets the assignment requirements.
+Overall this was a really useful project. I learned a lot about how to use threads properly, why synchronization is so important when threads share data, and how to actually get performance improvements from parallelization. Everything works and meets the project requirements.
 
 8. REFERENCES
 

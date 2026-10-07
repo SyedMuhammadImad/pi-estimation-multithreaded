@@ -10,15 +10,13 @@ Estimation of Pi Using Parallel Programming in Operating Systems
 
 
 
-Course: Operating Systems
+reference: Operating Systems
 
-Semester: Fall 2025
 
 University: University of Management and Technology, Lahore
 
 Department: Artificial Intelligence Student Name: Azfar Amjad
 
-Roll No: F2023376185
 
 
 

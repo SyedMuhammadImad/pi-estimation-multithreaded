@@ -4,15 +4,14 @@ Source document: Complex Computing Problem  solution.docx
 
 Images and layout omitted. Claims below are source text, not independently verified results.
 
-Assignment title: "Estimation of Pi Using Maclaurin Series"
+project title: "Estimation of Pi Using Maclaurin Series"
 
 Subtitle: "Multithreaded Implementation"
 
-Course: Operating Systems (CC3011)
+reference: Operating Systems (CC3011)
 
-Semester: Fall 2025
 
-Name: Syed Muhammad Imad, ID: F2023376179
+Name: Syed Muhammad Imad, ID: Syed Muhammad Imad
 
 Date: 29 JAN,2026
 
@@ -354,7 +353,7 @@ I measured that the mutex overhead is less than 1% of the total execution time, 
 
 6.1 Meeting the Requirements
 
-My implementation successfully meets all the assignment constraints:
+My implementation successfully meets all the project constraints:
 
 ✓ It handles n > 100,000 efficiently
 
@@ -382,7 +381,7 @@ My implementation achieves significant speedup compared to the sequential versio
 
 The results show that multithreading is very effective for this type of computational problem. I was able to get nearly linear speedup up to the number of CPU cores, which validates that my parallel approach works well.
 
-Overall, this project helped me understand how to properly use threads to speed up programs and how important synchronization is when multiple threads share data. The implementation meets all the assignment requirements and performs efficiently.
+Overall, this project helped me understand how to properly use threads to speed up programs and how important synchronization is when multiple threads share data. The implementation meets all the project requirements and performs efficiently.
 
 
 

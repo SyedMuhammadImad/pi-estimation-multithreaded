@@ -8,11 +8,10 @@ Estimation of Pi Using Maclaurin Series
 
 Multithreaded Implementation
 
-Course: Operating Systems (CC3011)
+reference: Operating Systems (CC3011)
 
-Semester: Fall 2025
 
-Name: Syed Muhammad Imad, ID: F2023376179
+Name: Syed Muhammad Imad, ID: Syed Muhammad Imad
 
 Date: 30th January, 2026
 
@@ -24,7 +23,7 @@ For this project, I made a program that calculates Pi using something called the
 
 π = 4 × [1 - 1/3 + 1/5 - 1/7 + 1/9 - ...]
 
-The whole point of this assignment was to make the calculation run faster by using multithreading. My program asks the user for two things - how many threads they want to use, and how many terms (n) to calculate. I used POSIX threads (pthreads) to divide up the work between different threads, and I had to use a mutex lock so that all the threads could safely update the final answer without messing each other up.
+The whole point of this project was to make the calculation run faster by using multithreading. My program asks the user for two things - how many threads they want to use, and how many terms (n) to calculate. I used POSIX threads (pthreads) to divide up the work between different threads, and I had to use a mutex lock so that all the threads could safely update the final answer without messing each other up.
 
 2. SEQUENTIAL IMPLEMENTATION
 
@@ -34,7 +33,7 @@ In the sequential form (which merely means single-threaded), the software basica
 
 2.2 Time Complexity
 
-Because you must go over each of the n phrases one at a time, the time complexity is O(n). It really takes a while when n reaches 100,000 or higher, as required by the assignment, especially because it only uses one CPU core.
+Because you must go over each of the n phrases one at a time, the time complexity is O(n). It really takes a while when n reaches 100,000 or higher, as required by the project, especially because it only uses one CPU core.
 
 2.3 Problems with Sequential Approach
 
@@ -332,7 +331,7 @@ Just adding local_sum to global_sum is the crucial portion, which is really brie
 
 6.1 Meeting the Requirements
 
-I'm pretty sure my implementation hits all the assignment requirements:
+I'm pretty sure my implementation hits all the project requirements:
 
 ✓ Works with n > 100,000 ✓ Uses a global variable (global_sum) that all threads update ✓ Divides work evenly between threads ✓ Uses mutex to prevent race conditions
 
@@ -354,7 +353,7 @@ Because each thread is working on a different portion of the series, they don't 
 
 For this project, I created a multithreaded software that uses the Maclaurin series to calculate Pi. It was a good method to learn about parallel programming - stuff like how to split up work amongst threads, how to utilize mutexes for synchronization, and how to manage shared memory. Particularly on PCs with several cores, the multithreaded version is unquestionably quicker than the sequential one. The mutex avoids any racial situations without unduly slowing things down, and my task distribution maintains equilibrium.
 
-My findings demonstrate that multithreading is effective for this type of computing issue. I achieved nearly linear speedup increase to the number of cores in my CPU, demonstrating the efficacy of the parallel technique. Parallel programming is important, as seen by the contrast between the sequential and multithreaded versions. All things considered, this endeavor was quite beneficial. I gained a lot of knowledge about the right usage of threads, the significance of synchronization when threads share data, and how parallelization genuinely improves performance. Everything works and meets the assignment requirements.
+My findings demonstrate that multithreading is effective for this type of computing issue. I achieved nearly linear speedup increase to the number of cores in my CPU, demonstrating the efficacy of the parallel technique. Parallel programming is important, as seen by the contrast between the sequential and multithreaded versions. All things considered, this endeavor was quite beneficial. I gained a lot of knowledge about the right usage of threads, the significance of synchronization when threads share data, and how parallelization genuinely improves performance. Everything works and meets the project requirements.
 
 8. VIDEO DEMONSTRATION
 
